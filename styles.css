@@ -4,8 +4,18 @@
   box-sizing: border-box;
 }
 
+body {
+  margin: 0px;
+  height: 100%;
+  font-family: "Open Sans";
+}
+
 header {
   background-color: #75e2e6;
+}
+
+nav {
+  display: inline;
 }
 
 h1 {
@@ -19,6 +29,11 @@ h1 {
   font-weight: 300;
 }
 
+p {
+  font-size: 20px;
+  font-family: "Open Sans";
+}
+
 em {
   font-weight: 800;
 }
@@ -28,17 +43,22 @@ h2 {
   font-family: "Open Sans";
 }
 
-body {
-  margin: 0px;
-  height: 100%;
-  font-family: "Open Sans";
-}
-
 footer {
   clear: both;
   background-color: #048eaa;
   height: 150px;
   width: 100%;
+}
+
+a {
+  margin-left: 20px;
+}
+
+#doge1 {
+  position: absolute;
+  margin-top: 100px;
+  z-index: 10;
+  margin-left: 575px;
 }
 
 .top_box {
@@ -51,13 +71,6 @@ footer {
   width: 240px;
 }
 
-#doge1 {
-  position: absolute;
-  margin-top: 100px;
-  z-index: 10;
-  margin-left: 575px;
-}
-
 .name {
   background-color: #75e2e6;
   width: 390px;
@@ -66,21 +79,14 @@ footer {
   float: none;
   margin-left: 500px;
   position: absolute; left: 0px; top: 580px;
+  font-family: "Open Sans";
+  font-weight: 300;
 }
 
 .park {
   width: 100%;
   height: 70%;
   filter: brightness(80%);
-}
-
-p {
-  font-size: 20px;
-  font-family: "Open Sans";
-}
-
-nav {
-  display: inline;
 }
 
 .top_button {
@@ -93,10 +99,7 @@ nav {
   font-size: 150%;
   margin-top: 25px;
   margin-left: 5px;
-}
-
-article {
-  display: block;
+  font-family: "Open Sans";
 }
 
 .icon {
@@ -117,32 +120,32 @@ article {
   margin: 15px;
 }
 
-a {
-  margin-left: 20px;
-}
-
-.art1,
-.art2,
-.art3 {
+.art1 {
+  margin-left: 10px;
   float: left;
   width: 31%;
   margin-top: 10px;
-  /* border: solid black 2px; */
   text-align: center;
-}
-
-.art1, .art3 {
   height: 625px;
-}
-
-.art1 {
-  margin-left: 10px;
 }
 
 .art2 {
   height: 625px;
   margin-left: 40px;
   margin-right: 40px;
+  float: left;
+  width: 31%;
+  margin-top: 10px;
+  text-align: center;
+  height: 625px;
+}
+
+.art3 {
+  float: left;
+  width: 31%;
+  margin-top: 10px;
+  text-align: center;
+  height: 625px;
 }
 
 .info {
@@ -174,4 +177,5 @@ a {
   margin-left: 500px;
   position: absolute; left: 0px; top: 450px;
   color: white;
+  font-family: "Open Sans";
 }
