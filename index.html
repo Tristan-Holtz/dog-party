@@ -2,7 +2,7 @@
   <head>
     <title>A Site About Some Dogs</title>
     <link rel="stylesheet" href="styles.css">
-    <link href=“https://fonts.googleapis.com/css?family=Open+Sans:300,800&display=swap” rel=“stylesheet”>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,800&display=swap” rel=“stylesheet">
   </head>
   <body>
     <header class="top_box">
@@ -14,12 +14,12 @@
       </nav>
     </header>
     <section class="img_container">
-      <h1>A Site About <strong>Some Dogs</strong></h1>
+      <h1>A Site About <strong id="name_to_change">Some Dogs</strong></h1>
       <img class="dog_pics" id="doge1" src="images/dog1-sq.jpg" alt="Dog 1">
       <img class="park" src="images/park.jpg" alt="Park Image">
-      <button class="name">Name this dog</button>
+      <button type="button" id="name_button" class="name">Name this dog</button>
       <p class="user_input">Name
-        <input class="input_field" type="text" name="dog_name">
+        <input class="input_field" id="new_name" type="text">
       </p>
     </section>
     <section class="info">
@@ -64,4 +64,5 @@
       </section>
     </footer>
   </body>
+  <script src="main.js"></script>
 </html>
