@@ -3,5 +3,5 @@ var button = document.querySelector("#name_button");
 
 button.addEventListener('click', function() {
   var dogName = document.querySelector("#new_name").value;
-  h1.innertext = dogName;
+  h1.innerHTML = dogName;
 });
