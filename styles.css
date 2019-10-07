@@ -26,7 +26,7 @@ h1 {
   z-index: 10;
   font-size: 40px;
   font-family: "Open Sans";
-  font-weight: 300;
+  font-weight: 100;
 }
 
 p {
@@ -34,13 +34,24 @@ p {
   font-family: "Open Sans";
 }
 
-em {
-  font-weight: 800;
+strong {
+  font-weight: bold;
 }
 
 h2 {
   font-weight: bolder;
   font-family: "Open Sans";
+}
+
+form {
+  display: inline;
+  text-align: center;
+}
+
+textarea {
+  height: 50px;
+  width: 200px;
+
 }
 
 footer {
@@ -80,7 +91,7 @@ a {
   margin-left: 500px;
   position: absolute; left: 0px; top: 580px;
   font-family: "Open Sans";
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .park {
@@ -100,6 +111,10 @@ a {
   margin-top: 25px;
   margin-left: 5px;
   font-family: "Open Sans";
+}
+
+.top_button:hover {
+  border: 1px solid white;
 }
 
 .icon {

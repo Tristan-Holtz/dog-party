@@ -14,15 +14,15 @@ var p2 = document.querySelector('#p2');
 var p3 = document.querySelector('#p3');
 
 function hideP1() {
-  p1.classList.add('hidden');
+  p1.classList.toggle('hidden');
 }
 
 function hideP2() {
-  p2.classList.add('hidden');
+  p2.classList.toggle('hidden');
 }
 
 function hideP3() {
-  p3.classList.add('hidden');
+  p3.classList.toggle('hidden');
 }
 
 how.addEventListener('click', hideP1);
