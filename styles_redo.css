@@ -1,0 +1,166 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  height: 100%;
+  font-family: "Open Sans", sans-sans-serif;
+}
+
+.top_box {
+  border-bottom: solid #048eaa 4px;
+  background-color: #75e2e6;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top_button:hover {
+  border: 1px solid white;
+}
+
+.top_button {
+  background-color: #75e2e6;
+  width: 190px;
+  height: 50px;
+  color: black;
+  border: 0px;
+  font-size: 150%;
+  margin-top: 25px;
+  font-family: "Open Sans";
+}
+
+.icon {
+  width: 60px;
+  margin: 20px;
+  display: inline;
+}
+
+.img_container {
+  display: block;
+  justify-content: space-around;
+}
+
+h1 {
+  position: absolute;
+  color: white;
+  margin-left: 490px;
+  margin-top: 20px;
+  z-index: 10;
+  font-size: 40px;
+  font-family: "Open Sans";
+  font-weight: 100;
+}
+
+#doge1 {
+  position: absolute;
+  margin-top: 100px;
+  z-index: 10;
+  margin-left: 575px;
+}
+
+.park {
+  width: 100%;
+  height: 600px;
+  filter: brightness(75%);
+}
+
+strong {
+  font-weight: bold;
+}
+
+.input_field {
+  display: block;
+  width: 390px;
+  height: 50px;
+  font-size: 30px;
+}
+.user_input {
+  width: 600px;
+  height: 50px;
+  font-size: 25px;
+  float: none;
+  margin-left: 500px;
+  position: absolute; left: 0px; top: 450px;
+  color: white;
+  font-family: "Open Sans";
+}
+
+.name {
+  background-color: #75e2e6;
+  width: 390px;
+  height: 50px;
+  font-size: 25px;
+  float: none;
+  position: absolute;
+  font-family: "Open Sans";
+  font-weight: 400;
+  margin-left: -940px;
+  margin-top: 500px;
+}
+
+form {
+  display: none;
+}
+
+.info {
+  width: 100%;
+  margin-bottom: 25px;
+  display: flex;
+}
+
+article {
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 30%;
+  margin-top: 10px;
+  text-align: center;
+  height: 625px;
+}
+
+.dog_pics {
+  border-radius: 50%;
+  border: solid #048eaa 5px;
+  width: 240px;
+}
+
+.question {
+  background-color: #048eaa;
+  width: 425px;
+  height: 50px;
+  color: white;
+  font-size: 150%;
+  border-radius: 3px;
+}
+
+footer {
+  clear: both;
+  background-color: #048eaa;
+  height: 150px;
+  width: 100%;
+  display: block;
+  justify-content: center;
+}
+
+.footnote {
+  color: white;
+  text-align: center;
+  font-size: 150%;
+  margin-left: 25px;
+}
+
+.social {
+  text-align: center;
+  margin: 15px;
+}
+
+a {
+  margin-left: 20px;
+}
+
+.hidden {
+  opacity:0;
+  transition: 1.5s ease-in-out;
+}
