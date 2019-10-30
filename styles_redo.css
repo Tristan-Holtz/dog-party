@@ -5,9 +5,9 @@
 }
 
 body {
-  margin: 0px;
-  height: 100%;
   font-family: "Open Sans", sans-sans-serif;
+  height: 100%;
+  margin: 0px;
 }
 
 .top_box {
@@ -23,19 +23,19 @@ body {
 
 .top_button {
   background-color: #75e2e6;
-  width: 190px;
-  height: 50px;
-  color: black;
   border: 0px;
+  color: black;
   font-size: 150%;
-  margin-top: 25px;
   font-family: "Open Sans";
+  height: 50px;
+  margin-top: 25px;
+  width: 190px;
 }
 
 .icon {
-  width: 60px;
-  margin: 20px;
   display: inline;
+  margin: 20px;
+  width: 60px;
 }
 
 .img_container {
@@ -44,27 +44,27 @@ body {
 }
 
 h1 {
-  position: absolute;
   color: white;
-  margin-left: 490px;
-  margin-top: 20px;
-  z-index: 10;
   font-size: 40px;
   font-family: "Open Sans";
   font-weight: 100;
+  margin-left: 490px;
+  margin-top: 20px;
+  position: absolute;
+  z-index: 10;
 }
 
 #doge1 {
-  position: absolute;
   margin-top: 100px;
-  z-index: 10;
   margin-left: 575px;
+  position: absolute;
+  z-index: 10;
 }
 
 .park {
-  width: 100%;
-  height: 600px;
   filter: brightness(75%);
+  height: 600px;
+  width: 100%;
 }
 
 strong {
@@ -73,32 +73,33 @@ strong {
 
 .input_field {
   display: block;
-  width: 390px;
-  height: 50px;
   font-size: 30px;
+  height: 50px;
+  width: 390px;
+
 }
 .user_input {
-  width: 600px;
-  height: 50px;
+  color: white;
   font-size: 25px;
+  font-family: "Open Sans";
   float: none;
+  height: 50px;
   margin-left: 500px;
   position: absolute; left: 0px; top: 450px;
-  color: white;
-  font-family: "Open Sans";
+  width: 600px;
 }
 
 .name {
   background-color: #75e2e6;
-  width: 390px;
-  height: 50px;
   font-size: 25px;
   float: none;
-  position: absolute;
   font-family: "Open Sans";
   font-weight: 400;
+  height: 50px;
   margin-left: -940px;
   margin-top: 500px;
+  position: absolute;
+  width: 390px;
 }
 
 form {
@@ -106,18 +107,18 @@ form {
 }
 
 .info {
-  width: 100%;
-  margin-bottom: 25px;
   display: flex;
+  margin-bottom: 25px;
+  width: 100%;
 }
 
 article {
+  margin-top: 10px;
   margin-left: 20px;
   margin-right: 20px;
-  width: 30%;
-  margin-top: 10px; 
-  text-align: center;
   height: 625px;
+  text-align: center;
+  width: 30%;
 }
 
 .dog_pics {
@@ -128,32 +129,32 @@ article {
 
 .question {
   background-color: #048eaa;
-  width: 425px;
-  height: 50px;
+  border-radius: 3px;
   color: white;
   font-size: 150%;
-  border-radius: 3px;
+  height: 50px;
+  width: 425px;
 }
 
 footer {
-  clear: both;
   background-color: #048eaa;
-  height: 150px;
-  width: 100%;
+  clear: both;
   display: block;
+  height: 150px;
   justify-content: center;
+  width: 100%;
 }
 
 .footnote {
   color: white;
-  text-align: center;
   font-size: 150%;
   margin-left: 25px;
+  text-align: center;
 }
 
 .social {
-  text-align: center;
   margin: 15px;
+  text-align: center;
 }
 
 a {
