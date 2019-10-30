@@ -1,0 +1,167 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-sans-serif;
+  height: 100%;
+  margin: 0px;
+}
+
+.top_box {
+  border-bottom: solid #048eaa 4px;
+  background-color: #75e2e6;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top_button:hover {
+  border: 1px solid white;
+}
+
+.top_button {
+  background-color: #75e2e6;
+  border: 0px;
+  color: black;
+  font-size: 150%;
+  font-family: "Open Sans";
+  height: 50px;
+  margin-top: 25px;
+  width: 190px;
+}
+
+.icon {
+  display: inline;
+  margin: 20px;
+  width: 60px;
+}
+
+.img_container {
+  display: block;
+  justify-content: space-around;
+}
+
+h1 {
+  color: white;
+  font-size: 40px;
+  font-family: "Open Sans";
+  font-weight: 100;
+  margin-left: 490px;
+  margin-top: 20px;
+  position: absolute;
+  z-index: 10;
+}
+
+#doge1 {
+  margin-top: 100px;
+  margin-left: 575px;
+  position: absolute;
+  z-index: 10;
+}
+
+.park {
+  filter: brightness(75%);
+  height: 600px;
+  width: 100%;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.input_field {
+  display: block;
+  font-size: 30px;
+  height: 50px;
+  width: 390px;
+
+}
+.user_input {
+  color: white;
+  font-size: 25px;
+  font-family: "Open Sans";
+  float: none;
+  height: 50px;
+  margin-left: 500px;
+  position: absolute; left: 0px; top: 450px;
+  width: 600px;
+}
+
+.name {
+  background-color: #75e2e6;
+  font-size: 25px;
+  float: none;
+  font-family: "Open Sans";
+  font-weight: 400;
+  height: 50px;
+  margin-left: -940px;
+  margin-top: 500px;
+  position: absolute;
+  width: 390px;
+}
+
+form {
+  display: none;
+}
+
+.info {
+  display: flex;
+  margin-bottom: 25px;
+  width: 100%;
+}
+
+article {
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 625px;
+  text-align: center;
+  width: 30%;
+}
+
+.dog_pics {
+  border-radius: 50%;
+  border: solid #048eaa 5px;
+  width: 240px;
+}
+
+.question {
+  background-color: #048eaa;
+  border-radius: 3px;
+  color: white;
+  font-size: 150%;
+  height: 50px;
+  width: 425px;
+}
+
+footer {
+  background-color: #048eaa;
+  clear: both;
+  display: block;
+  height: 150px;
+  justify-content: center;
+  width: 100%;
+}
+
+.footnote {
+  color: white;
+  font-size: 150%;
+  margin-left: 25px;
+  text-align: center;
+}
+
+.social {
+  margin: 15px;
+  text-align: center;
+}
+
+a {
+  margin-left: 20px;
+}
+
+.hidden {
+  opacity:0;
+  transition: 1.5s ease-in-out;
+}
